@@ -32,11 +32,11 @@
 
 											<div class="kt-portlet__head-actions">
 
-													<button type="button" id="btnPilihAll"  class="btn btn-danger btn-icon-sm" >
+													<!-- <button type="button" id="btnPilihAll"  class="btn btn-danger btn-icon-sm" >
 
 														<i class="la la-trash"></i> Delete
 
-													</button>
+													</button> -->
 
 												
 
@@ -50,43 +50,20 @@
 
 								<div class="kt-portlet__body">
 
+									<ul class="list-group list-group-flush">
+									  <li class="list-group-item">Nama<br/>
+									  	<h3>Admin</h3></li>
+									  	 <li class="list-group-item">E-mail<br/>
+									  	<h3>admin@gmail.com</h3></li>
+									  	 <li class="list-group-item">Telepon<br/>
+									  	<h3>086546156160</h3></li>
+									 
+									</ul>
+
 
 
 									<!--begin: Datatable -->
 
-									<table class="table table-striped- table-bordered table-hover table-checkable" id="tableData">
-
-											   <thead>
-
-										             <tr>
-
-										            	<th>
-										            		<label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid">
-										            		<input type="checkbox" id="select_all">&nbsp;<span></span>
-										            		</label>
-										            	</th>
-
-									
-									
-										                <th>nama</th>
-										                <th>email</th>
-										                <th>subjek</th>
-										                <th>pesan</th>
-										                <th>tanggal</th>
-										                <th>time</th>
-
-										                
-
-										            </tr>
-										            </tr>
-
-										        </thead>
-
-									</table>
-
-
-
-									<!--end: Datatable -->
 
 								</div>
 
